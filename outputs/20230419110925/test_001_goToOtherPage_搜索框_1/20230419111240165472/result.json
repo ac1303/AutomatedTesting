@@ -1,0 +1,142 @@
+{
+    "case_name": "test_001_goToOtherPage_\u641c\u7d22\u6846_1",
+    "run_time": "20230419 11:12:40",
+    "test_type": "CourseIndexTest",
+    "case_doc": "\u6d4b\u8bd5\u8df3\u8f6c\u5230\u5176\u4ed6\u9875\u9762\n:param element: \u63a7\u4ef6\n:param page: \u9875\u9762\n:param msg: \u63d0\u793a\u6d88\u606f\n:return: None\n",
+    "success": false,
+    "failures": "",
+    "errors": "Traceback (most recent call last):\n  File \"d:\\python\\python38\\lib\\site-packages\\minium\\framework\\libs\\unittest\\case.py\", line 39, in testPartExecutor\n    yield\n  File \"d:\\python\\python38\\lib\\site-packages\\minium\\framework\\libs\\unittest\\case.py\", line 125, in run\n    self._callTestMethod(testMethod)\n  File \"d:\\python\\python38\\lib\\unittest\\case.py\", line 633, in _callTestMethod\n    method()\n  File \"d:\\python\\python38\\lib\\site-packages\\ddt.py\", line 220, in wrapper\n    return func(self, *args, **kwargs)\n  File \"G:\\python_workspace\\\u56db\u5927\u8bc1\u81ea\u52a8\u5316\\case\\CourseIndexTest.py\", line 54, in test_001_goToOtherPage\n    self.getElement(element).tap()\n  File \"G:\\python_workspace\\\u56db\u5927\u8bc1\u81ea\u52a8\u5316\\case\\base\\BaseCase.py\", line 73, in getElement\n    return self.page.get_element(self.elementXpath[key][\"value\"])\n  File \"d:\\python\\python38\\lib\\site-packages\\minium\\miniprogram\\base_driver\\minium_log.py\", line 131, in wrapper\n    result = func(*args, **kwargs)\n  File \"d:\\python\\python38\\lib\\site-packages\\minium\\miniprogram\\base_driver\\page.py\", line 240, in get_element\n    return self.get_element_by_xpath(\n  File \"d:\\python\\python38\\lib\\site-packages\\minium\\miniprogram\\base_driver\\minium_log.py\", line 131, in wrapper\n    result = func(*args, **kwargs)\n  File \"d:\\python\\python38\\lib\\site-packages\\minium\\miniprogram\\base_driver\\page.py\", line 435, in get_element_by_xpath\n    el = search_element()\n  File \"d:\\python\\python38\\lib\\site-packages\\minium\\utils\\utils.py\", line 43, in wrapper\n    r = func(*args, **kwargs)\n  File \"d:\\python\\python38\\lib\\site-packages\\minium\\miniprogram\\base_driver\\page.py\", line 433, in search_element\n    return self._get_element_by_xpath(xpath)\n  File \"d:\\python\\python38\\lib\\site-packages\\minium\\miniprogram\\base_driver\\page.py\", line 607, in _get_element_by_xpath\n    ret = self._send(\"Page.getElementByXpath\", {\"selector\": xpath})\n  File \"d:\\python\\python38\\lib\\site-packages\\minium\\miniprogram\\base_driver\\page.py\", line 458, in _send\n    self.connection.send(method, params)\n  File \"d:\\python\\python38\\lib\\site-packages\\minium\\miniprogram\\base_driver\\connection.py\", line 203, in send\n    return self._receive_response(cmd)\n  File \"d:\\python\\python38\\lib\\site-packages\\minium\\miniprogram\\base_driver\\connection.py\", line 222, in _receive_response\n    raise response\nminium.framework.exception.MiniLowVersionSdkError: webview Page.getElementByXpath unimplemented\n",
+    "start_timestamp": 1681873960.1654723,
+    "is_failure": false,
+    "is_error": true,
+    "module": "G:.python_workspace.\u56db\u5927\u8bc1\u81ea\u52a8\u5316.case.CourseIndexTest",
+    "package": "case",
+    "failed_line_num": -1,
+    "device": {
+        "system_info": {
+            "screenWidth": 360,
+            "windowHeight": 640,
+            "bluetoothEnabled": true,
+            "language": "zh_CN",
+            "microphoneAuthorized": true,
+            "locationAuthorized": true,
+            "notificationAuthorized": true,
+            "model": "2203121C",
+            "statusBarHeight": 24,
+            "safeArea": {
+                "width": 360,
+                "right": 360,
+                "top": 0,
+                "left": 0,
+                "bottom": 640,
+                "height": 640
+            },
+            "brand": "Xiaomi",
+            "windowWidth": 360,
+            "locationEnabled": true,
+            "benchmarkLevel": -1,
+            "screenHeight": 640,
+            "abi": "armeabi-v7a",
+            "version": "8.0.2",
+            "cameraAuthorized": true,
+            "system": "Android 9",
+            "fontSizeSetting": 16,
+            "pixelRatio": 3,
+            "deviceOrientation": "portrait",
+            "wifiEnabled": true,
+            "screenTop": 0,
+            "platform": "android",
+            "SDKVersion": "2.16.1",
+            "enableDebug": false,
+            "devicePixelRatio": 3,
+            "host": {
+                "env": "WeChat",
+                "version": 671089204
+            }
+        }
+    },
+    "log_filename": "run.log",
+    "error_type": "MiniLowVersionSdkError",
+    "error_value": "webview Page.getElementByXpath unimplemented",
+    "error_stages": [
+        "testMethod"
+    ],
+    "screen_info": [
+        {
+            "name": "setup",
+            "url": "/pages/index",
+            "path": "images\\setup.png",
+            "ts": 1681873962,
+            "datetime": "2023-04-19 11:12:42"
+        },
+        {
+            "name": "\u8fdb\u5165\u8bfe\u7a0b-success",
+            "url": "/pages/Course/index",
+            "path": "images\\\u8fdb\u5165\u8bfe\u7a0b-success.png",
+            "ts": 1681873980,
+            "datetime": "2023-04-19 11:13:00"
+        },
+        {
+            "name": "\u8fdb\u5165\u8bfe\u7a0b\u9996\u9875-success",
+            "url": "/pages/Course/index",
+            "path": "images\\\u8fdb\u5165\u8bfe\u7a0b\u9996\u9875-success.png",
+            "ts": 1681873982,
+            "datetime": "2023-04-19 11:13:02"
+        },
+        {
+            "name": "teardown",
+            "url": "/pages/Course/index",
+            "path": "images\\teardown.png",
+            "ts": 1681873986,
+            "datetime": "2023-04-19 11:13:06"
+        }
+    ],
+    "check_list": [],
+    "assert_list": [
+        {
+            "name": "\u8fdb\u5165\u8bfe\u7a0b",
+            "ret": true,
+            "msg": null,
+            "img": "\u8fdb\u5165\u8bfe\u7a0b-success",
+            "wxml": ""
+        },
+        {
+            "name": "\u8fdb\u5165\u8bfe\u7a0b\u9996\u9875",
+            "ret": true,
+            "msg": null,
+            "img": "\u8fdb\u5165\u8bfe\u7a0b\u9996\u9875-success",
+            "wxml": ""
+        }
+    ],
+    "perf_data": "{\"startup\": 0, \"avg_cpu\": 0, \"max_cpu\": 0, \"cpu_data_list\": [], \"avg_mem\": 0, \"max_mem\": 0, \"mem_data_list\": [], \"avg_fps\": 0, \"min_fps_rt\": 0, \"fps_data_list\": [], \"fps_time_series_list\": [], \"cpu_time_series_list\": [], \"mem_time_series_list\": []}",
+    "weapp_log_path": "weapp.log",
+    "request_log_path": "request.log",
+    "stop_timestamp": 1681873986.9692755,
+    "appId": "",
+    "appName": "",
+    "source": {
+        "code": [
+            "    @minium.ddt_case(\n",
+            "        minium.ddt_data(['\u641c\u7d22\u6846', \"\u641c\u7d22\u9875\", \"\u8df3\u8f6c\u641c\u7d22\u9875\u9762\u6210\u529f\"], name=\"\u641c\u7d22\u6846\"),\n",
+            "        minium.ddt_data(['\u77e5\u8bc6\u70b9', \"\u77e5\u8bc6\u70b9\", \"\u8df3\u8f6c\u77e5\u8bc6\u70b9\u9875\u9762\u6210\u529f\"], name=\"\u77e5\u8bc6\u70b9\"),\n",
+            "        minium.ddt_data(['\u901a\u5173\u79d8\u7c4d', \"\u901a\u5173\u79d8\u7c4d\", \"\u8df3\u8f6c\u901a\u5173\u79d8\u7c4d\u9875\u9762\u6210\u529f\"], name=\"\u901a\u5173\u79d8\u7c4d\"),\n",
+            "        minium.ddt_data(['\u7ae0\u8282\u7ec3', \"\u7ae0\u8282\u7ec3\", \"\u8df3\u8f6c\u7ae0\u8282\u7ec3\u9875\u9762\u6210\u529f\"], name=\"\u7ae0\u8282\u7ec3\"),\n",
+            "        minium.ddt_data(['\u6a21\u62df\u8003', \"\u6a21\u62df\u8003\", \"\u8df3\u8f6c\u6a21\u62df\u8003\u9875\u9762\u6210\u529f\"], name=\"\u6a21\u62df\u8003\"),\n",
+            "    )\n",
+            "    @minium.ddt_unpack\n",
+            "    def test_001_goToOtherPage(self, element, page, msg):\n",
+            "        \"\"\"\n",
+            "        \u6d4b\u8bd5\u8df3\u8f6c\u5230\u5176\u4ed6\u9875\u9762\n",
+            "        :param element: \u63a7\u4ef6\n",
+            "        :param page: \u9875\u9762\n",
+            "        :param msg: \u63d0\u793a\u6d88\u606f\n",
+            "        :return: None\n",
+            "        \"\"\"\n",
+            "        self.getElement(element).tap()\n",
+            "        self.app.wait_util(0)\n",
+            "        self.assertTrue(self.app.wait_for_page(self.route.get_page(page)), msg)\n"
+        ],
+        "start": 38
+    },
+    "filename": "result.json"
+}

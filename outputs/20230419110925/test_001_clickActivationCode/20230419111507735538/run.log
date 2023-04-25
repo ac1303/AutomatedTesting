@@ -1,0 +1,4 @@
+INFO  2023-04-19 11:15:07,736 minitest.py _miniSetUp      280 =========Current case: test_001_clickActivationCode=========
+INFO  2023-04-19 11:15:07,736 minitest.py _miniSetUp      281 package info: G:.python_workspace.四大证自动化.case.HomeIndexTest, case info: HomeIndexTest.test_001_clickActivationCode
+INFO  2023-04-19 11:15:07,737 basenative.py wrapper         23  call BaseNative.back_to_miniprogram
+INFO  2023-04-19 11:15:07,737 basenative.py back_to_miniprogram 528 try back_to_miniprogram 3

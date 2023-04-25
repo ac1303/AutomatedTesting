@@ -1,0 +1,151 @@
+{
+    "case_name": "test_uploadImage",
+    "run_time": "20230419 11:11:50",
+    "test_type": "ClockInTest",
+    "case_doc": "\u6d4b\u8bd5\u4e0a\u4f20\u6253\u5361\u56fe\u7247\n",
+    "success": false,
+    "failures": "",
+    "errors": "Traceback (most recent call last):\n  File \"d:\\python\\python38\\lib\\site-packages\\minium\\framework\\libs\\unittest\\case.py\", line 39, in testPartExecutor\n    yield\n  File \"d:\\python\\python38\\lib\\site-packages\\minium\\framework\\libs\\unittest\\case.py\", line 125, in run\n    self._callTestMethod(testMethod)\n  File \"d:\\python\\python38\\lib\\unittest\\case.py\", line 633, in _callTestMethod\n    method()\n  File \"G:\\python_workspace\\\u56db\u5927\u8bc1\u81ea\u52a8\u5316\\case\\ClockInTest.py\", line 15, in test_uploadImage\n    img_url = self.getElement(\"\u4e0a\u4f20\u56fe\u7247\").attribute(\"src\")\n  File \"G:\\python_workspace\\\u56db\u5927\u8bc1\u81ea\u52a8\u5316\\case\\base\\BaseCase.py\", line 73, in getElement\n    return self.page.get_element(self.elementXpath[key][\"value\"])\n  File \"d:\\python\\python38\\lib\\site-packages\\minium\\miniprogram\\base_driver\\minium_log.py\", line 131, in wrapper\n    result = func(*args, **kwargs)\n  File \"d:\\python\\python38\\lib\\site-packages\\minium\\miniprogram\\base_driver\\page.py\", line 240, in get_element\n    return self.get_element_by_xpath(\n  File \"d:\\python\\python38\\lib\\site-packages\\minium\\miniprogram\\base_driver\\minium_log.py\", line 131, in wrapper\n    result = func(*args, **kwargs)\n  File \"d:\\python\\python38\\lib\\site-packages\\minium\\miniprogram\\base_driver\\page.py\", line 435, in get_element_by_xpath\n    el = search_element()\n  File \"d:\\python\\python38\\lib\\site-packages\\minium\\utils\\utils.py\", line 43, in wrapper\n    r = func(*args, **kwargs)\n  File \"d:\\python\\python38\\lib\\site-packages\\minium\\miniprogram\\base_driver\\page.py\", line 433, in search_element\n    return self._get_element_by_xpath(xpath)\n  File \"d:\\python\\python38\\lib\\site-packages\\minium\\miniprogram\\base_driver\\page.py\", line 607, in _get_element_by_xpath\n    ret = self._send(\"Page.getElementByXpath\", {\"selector\": xpath})\n  File \"d:\\python\\python38\\lib\\site-packages\\minium\\miniprogram\\base_driver\\page.py\", line 458, in _send\n    self.connection.send(method, params)\n  File \"d:\\python\\python38\\lib\\site-packages\\minium\\miniprogram\\base_driver\\connection.py\", line 203, in send\n    return self._receive_response(cmd)\n  File \"d:\\python\\python38\\lib\\site-packages\\minium\\miniprogram\\base_driver\\connection.py\", line 222, in _receive_response\n    raise response\nminium.framework.exception.MiniLowVersionSdkError: webview Page.getElementByXpath unimplemented\n",
+    "start_timestamp": 1681873910.806718,
+    "is_failure": false,
+    "is_error": true,
+    "module": "G:.python_workspace.\u56db\u5927\u8bc1\u81ea\u52a8\u5316.case.ClockInTest",
+    "package": "case",
+    "failed_line_num": 15,
+    "device": {
+        "system_info": {
+            "screenWidth": 360,
+            "windowHeight": 640,
+            "bluetoothEnabled": true,
+            "language": "zh_CN",
+            "microphoneAuthorized": true,
+            "locationAuthorized": true,
+            "notificationAuthorized": true,
+            "model": "2203121C",
+            "statusBarHeight": 24,
+            "safeArea": {
+                "width": 360,
+                "right": 360,
+                "top": 0,
+                "left": 0,
+                "bottom": 640,
+                "height": 640
+            },
+            "brand": "Xiaomi",
+            "windowWidth": 360,
+            "locationEnabled": true,
+            "benchmarkLevel": -1,
+            "screenHeight": 640,
+            "abi": "armeabi-v7a",
+            "version": "8.0.2",
+            "cameraAuthorized": true,
+            "system": "Android 9",
+            "fontSizeSetting": 16,
+            "pixelRatio": 3,
+            "deviceOrientation": "portrait",
+            "wifiEnabled": true,
+            "screenTop": 0,
+            "platform": "android",
+            "SDKVersion": "2.16.1",
+            "enableDebug": false,
+            "devicePixelRatio": 3,
+            "host": {
+                "env": "WeChat",
+                "version": 671089204
+            }
+        }
+    },
+    "log_filename": "run.log",
+    "error_type": "MiniLowVersionSdkError",
+    "error_value": "webview Page.getElementByXpath unimplemented",
+    "error_stages": [
+        "testMethod"
+    ],
+    "screen_info": [
+        {
+            "name": "setup",
+            "url": "/pages/index",
+            "path": "images\\setup.png",
+            "ts": 1681873913,
+            "datetime": "2023-04-19 11:11:53"
+        },
+        {
+            "name": "\u8fdb\u5165\u8bfe\u7a0b-success",
+            "url": "/pages/Course/index",
+            "path": "images\\\u8fdb\u5165\u8bfe\u7a0b-success.png",
+            "ts": 1681873928,
+            "datetime": "2023-04-19 11:12:08"
+        },
+        {
+            "name": "\u8fdb\u5165\u6253\u5361\u9875\u9762\u6210\u529f-success",
+            "url": "/pages/Template/clockIn/clockIn",
+            "path": "images\\\u8fdb\u5165\u6253\u5361\u9875\u9762\u6210\u529f-success.png",
+            "ts": 1681873935,
+            "datetime": "2023-04-19 11:12:15"
+        },
+        {
+            "name": "teardown",
+            "url": "/pages/Template/clockIn/clockIn",
+            "path": "images\\teardown.png",
+            "ts": 1681873938,
+            "datetime": "2023-04-19 11:12:18"
+        }
+    ],
+    "check_list": [],
+    "assert_list": [
+        {
+            "name": "\u8fdb\u5165\u8bfe\u7a0b",
+            "ret": true,
+            "msg": null,
+            "img": "\u8fdb\u5165\u8bfe\u7a0b-success",
+            "wxml": ""
+        },
+        {
+            "name": "\u8fdb\u5165\u6253\u5361\u9875\u9762\u6210\u529f",
+            "ret": true,
+            "msg": null,
+            "img": "\u8fdb\u5165\u6253\u5361\u9875\u9762\u6210\u529f-success",
+            "wxml": ""
+        }
+    ],
+    "perf_data": "{\"startup\": 0, \"avg_cpu\": 0, \"max_cpu\": 0, \"cpu_data_list\": [], \"avg_mem\": 0, \"max_mem\": 0, \"mem_data_list\": [], \"avg_fps\": 0, \"min_fps_rt\": 0, \"fps_data_list\": [], \"fps_time_series_list\": [], \"cpu_time_series_list\": [], \"mem_time_series_list\": []}",
+    "weapp_log_path": "weapp.log",
+    "request_log_path": "request.log",
+    "stop_timestamp": 1681873938.7196565,
+    "appId": "",
+    "appName": "",
+    "source": {
+        "code": [
+            "    @minium.ddt_case(\n",
+            "        minium.ddt_data(\"./img/test.png\")\n",
+            "    )\n",
+            "    def test_uploadImage(self, filePath=\"./img/test.png\"):\n",
+            "        \"\"\"\n",
+            "        \u6d4b\u8bd5\u4e0a\u4f20\u6253\u5361\u56fe\u7247\n",
+            "        \"\"\"\n",
+            "        img_url = self.getElement(\"\u4e0a\u4f20\u56fe\u7247\").attribute(\"src\")\n",
+            "        self.logger.info(\"img_url: %s\" % img_url)\n",
+            "        with open(filePath, \"rb\") as fd:\n",
+            "            c = fd.read()\n",
+            "            image_b64data = base64.b64encode(c).decode(\"utf8\")\n",
+            "        # self.logger.info(\"image_b64data: %s\" % image_b64data)\n",
+            "        ret = self.app.mock_choose_image(\"1.png\", image_b64data)\n",
+            "        # \u70b9\u51fb\u5934\u50cf\n",
+            "        self.getElement(\"\u4e0a\u4f20\u56fe\u7247\").tap()\n",
+            "        self.native.handle_action_sheet(\"\u9009\u62e9\u56fe\u7247\")\n",
+            "        self.assertTrue(ret, \"mock_choose_image\u6210\u529f\")\n",
+            "        self.app.wait_util(0)\n",
+            "        self.page.wait_for(1)\n",
+            "        new_img_url = self.getElement(\"\u4e0a\u4f20\u56fe\u7247\").attribute(\"src\")\n",
+            "        self.logger.info(\"new_img_url: %s\" % new_img_url)\n",
+            "        self.assertNotEqual(img_url, new_img_url, \"\u4e0a\u4f20\u56fe\u7247\u6210\u529f\")\n",
+            "        self.getElement(\"\u5220\u9664\u56fe\u7247\").tap()\n",
+            "        self.app.wait_util(0)\n",
+            "        self.page.wait_for(1)\n",
+            "        del_img_url = self.getElement(\"\u4e0a\u4f20\u56fe\u7247\").attribute(\"src\")\n",
+            "        self.assertNotEqual(new_img_url, del_img_url, \"\u5220\u9664\u56fe\u7247\u6210\u529f\")\n"
+        ],
+        "start": 8
+    },
+    "filename": "result.json"
+}

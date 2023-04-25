@@ -1,0 +1,194 @@
+INFO  2023-04-19 11:13:06,976 minitest.py _miniSetUp      280 =========Current case: test_001_goToOtherPage_模拟考_5=========
+INFO  2023-04-19 11:13:06,976 minitest.py _miniSetUp      281 package info: G:.python_workspace.四大证自动化.case.CourseIndexTest, case info: CourseIndexTest.test_001_goToOtherPage_模拟考_5
+INFO  2023-04-19 11:13:06,977 basenative.py wrapper         23  call BaseNative.back_to_miniprogram
+INFO  2023-04-19 11:13:06,977 basenative.py back_to_miniprogram 528 try back_to_miniprogram 3
+INFO  2023-04-19 11:13:07,092 androidnative.py _get_current_activity 912 current activity is com.tencent.mm/.plugin.appbrand.ui.AppBrandUI
+INFO  2023-04-19 11:13:07,267 basenative.py wrapper         27  call BaseNative.back_to_miniprogram end
+INFO  2023-04-19 11:13:07,269 app.py     relaunch        387 ReLaunch: /pages/index
+INFO  2023-04-19 11:13:07,665 connection.py _on_message     273 received async msg: fcd766f4-737b-4d14-a6df-49a25c904c7d
+INFO  2023-04-19 11:13:08,864 app.py     _on_route_changed 588 Route changed, {'name': 'onAppRouteDone', 'args': [{'path': 'pages/index', 'rawPath': 'pages/index.html', 'query': {}, 'openType': 'reLaunch', 'webviewId': -1673279238}, 1681873988861]}
+INFO  2023-04-19 11:13:08,865 minitest.py capture         576 capture setup.png
+INFO  2023-04-19 11:13:08,865 basenative.py wrapper         23  call WXAndroidNative.screen_shot
+INFO  2023-04-19 11:13:09,248 basenative.py wrapper         27  call WXAndroidNative.screen_shot end
+INFO  2023-04-19 11:13:09,256 basenative.py wrapper         23  call WXAndroidNative.start_get_perf
+INFO  2023-04-19 11:13:09,258 basenative.py wrapper         27  call WXAndroidNative.start_get_perf end
+INFO  2023-04-19 11:13:11,691 androidnative.py _start_get_perf 703 processname [com.tencent.mm:appbrand0] pid [4682]
+INFO  2023-04-19 11:13:11,859 basenative.py wrapper         23  call WXAndroidNative.write_perf_data
+INFO  2023-04-19 11:13:11,860 basenative.py wrapper         23  call WXAndroidNative.get_cpu_rate_by_file
+INFO  2023-04-19 11:13:11,959 basenative.py wrapper         23  call WXAndroidNative.get_cpu_time
+INFO  2023-04-19 11:13:12,023 basenative.py wrapper         27  call WXAndroidNative.get_cpu_time end
+INFO  2023-04-19 11:13:12,023 basenative.py wrapper         27  call WXAndroidNative.get_cpu_rate_by_file end
+INFO  2023-04-19 11:13:12,102 basenative.py wrapper         23  call WXAndroidNative.get_mem_used_new
+INFO  2023-04-19 11:13:12,417 basenative.py wrapper         27  call WXAndroidNative.get_mem_used_new end
+INFO  2023-04-19 11:13:12,417 androidnative.py write_perf_data 676 perf_cpu: 0, fps_data: 51, perf_mem: 147.6220703125
+INFO  2023-04-19 11:13:12,417 basenative.py wrapper         23  call WXAndroidNative.screen_shot
+INFO  2023-04-19 11:13:12,869 basenative.py wrapper         27  call WXAndroidNative.screen_shot end
+INFO  2023-04-19 11:13:12,869 basenative.py wrapper         23  call WXAndroidNative.get_cpu_rate_by_file
+INFO  2023-04-19 11:13:12,926 basenative.py wrapper         23  call WXAndroidNative.get_cpu_time
+INFO  2023-04-19 11:13:12,990 basenative.py wrapper         27  call WXAndroidNative.get_cpu_time end
+INFO  2023-04-19 11:13:12,991 basenative.py wrapper         27  call WXAndroidNative.get_cpu_rate_by_file end
+INFO  2023-04-19 11:13:13,121 basenative.py wrapper         23  call WXAndroidNative.get_mem_used_new
+INFO  2023-04-19 11:13:13,440 basenative.py wrapper         27  call WXAndroidNative.get_mem_used_new end
+INFO  2023-04-19 11:13:13,443 androidnative.py write_perf_data 676 perf_cpu: 38.80597014925373, fps_data: 35, perf_mem: 189.73046875
+INFO  2023-04-19 11:13:13,443 basenative.py wrapper         23  call WXAndroidNative.screen_shot
+INFO  2023-04-19 11:13:14,073 basenative.py wrapper         27  call WXAndroidNative.screen_shot end
+INFO  2023-04-19 11:13:14,074 basenative.py wrapper         23  call WXAndroidNative.get_cpu_rate_by_file
+INFO  2023-04-19 11:13:14,133 basenative.py wrapper         23  call WXAndroidNative.get_cpu_time
+INFO  2023-04-19 11:13:14,200 basenative.py wrapper         27  call WXAndroidNative.get_cpu_time end
+INFO  2023-04-19 11:13:14,200 basenative.py wrapper         27  call WXAndroidNative.get_cpu_rate_by_file end
+INFO  2023-04-19 11:13:14,259 basenative.py wrapper         23  call WXAndroidNative.get_mem_used_new
+INFO  2023-04-19 11:13:14,444 app.py     _on_route_changed 588 Route changed, {'name': 'onAppRouteDone', 'args': [{'path': 'pages/Course/index', 'rawPath': 'pages/Course/index.html', 'query': {}, 'openType': 'switchTab', 'webviewId': -822087210}, 1681873994441]}
+INFO  2023-04-19 11:13:14,483 basenative.py wrapper         27  call WXAndroidNative.get_mem_used_new end
+INFO  2023-04-19 11:13:14,484 androidnative.py write_perf_data 676 perf_cpu: 34.08071748878923, fps_data: 36, perf_mem: 127.326171875
+INFO  2023-04-19 11:13:14,484 basenative.py wrapper         23  call WXAndroidNative.screen_shot
+INFO  2023-04-19 11:13:14,764 basenative.py wrapper         27  call WXAndroidNative.screen_shot end
+INFO  2023-04-19 11:13:15,458 basenative.py wrapper         23  call WXAndroidNative.get_cpu_rate_by_file
+INFO  2023-04-19 11:13:15,513 basenative.py wrapper         23  call WXAndroidNative.get_cpu_time
+INFO  2023-04-19 11:13:15,573 basenative.py wrapper         27  call WXAndroidNative.get_cpu_time end
+INFO  2023-04-19 11:13:15,574 basenative.py wrapper         27  call WXAndroidNative.get_cpu_rate_by_file end
+INFO  2023-04-19 11:13:15,641 basenative.py wrapper         23  call WXAndroidNative.get_mem_used_new
+INFO  2023-04-19 11:13:16,023 basenative.py wrapper         27  call WXAndroidNative.get_mem_used_new end
+INFO  2023-04-19 11:13:16,023 androidnative.py write_perf_data 676 perf_cpu: 30.284552845528456, fps_data: 20, perf_mem: 119.580078125
+INFO  2023-04-19 11:13:16,024 basenative.py wrapper         23  call WXAndroidNative.screen_shot
+INFO  2023-04-19 11:13:16,341 basenative.py wrapper         27  call WXAndroidNative.screen_shot end
+INFO  2023-04-19 11:13:17,226 basenative.py wrapper         23  call WXAndroidNative.get_cpu_rate_by_file
+INFO  2023-04-19 11:13:17,281 basenative.py wrapper         23  call WXAndroidNative.get_cpu_time
+INFO  2023-04-19 11:13:17,338 basenative.py wrapper         27  call WXAndroidNative.get_cpu_time end
+INFO  2023-04-19 11:13:17,339 basenative.py wrapper         27  call WXAndroidNative.get_cpu_rate_by_file end
+INFO  2023-04-19 11:13:17,426 basenative.py wrapper         23  call WXAndroidNative.get_mem_used_new
+INFO  2023-04-19 11:13:17,687 basenative.py wrapper         27  call WXAndroidNative.get_mem_used_new end
+INFO  2023-04-19 11:13:17,687 androidnative.py write_perf_data 676 perf_cpu: 34.52593917710197, fps_data: 20, perf_mem: 119.689453125
+INFO  2023-04-19 11:13:17,688 basenative.py wrapper         23  call WXAndroidNative.screen_shot
+INFO  2023-04-19 11:13:17,957 basenative.py wrapper         27  call WXAndroidNative.screen_shot end
+INFO  2023-04-19 11:13:18,691 basenative.py wrapper         23  call WXAndroidNative.get_cpu_rate_by_file
+INFO  2023-04-19 11:13:18,745 basenative.py wrapper         23  call WXAndroidNative.get_cpu_time
+INFO  2023-04-19 11:13:18,850 basenative.py wrapper         27  call WXAndroidNative.get_cpu_time end
+INFO  2023-04-19 11:13:18,850 basenative.py wrapper         27  call WXAndroidNative.get_cpu_rate_by_file end
+INFO  2023-04-19 11:13:18,951 basenative.py wrapper         23  call WXAndroidNative.get_mem_used_new
+INFO  2023-04-19 11:13:19,199 basenative.py wrapper         27  call WXAndroidNative.get_mem_used_new end
+INFO  2023-04-19 11:13:19,200 androidnative.py write_perf_data 676 perf_cpu: 27.808471454880294, fps_data: 12, perf_mem: 118.6396484375
+INFO  2023-04-19 11:13:19,200 basenative.py wrapper         23  call WXAndroidNative.screen_shot
+INFO  2023-04-19 11:13:19,595 basenative.py wrapper         27  call WXAndroidNative.screen_shot end
+INFO  2023-04-19 11:13:20,502 basenative.py wrapper         23  call WXAndroidNative.get_cpu_rate_by_file
+INFO  2023-04-19 11:13:20,567 basenative.py wrapper         23  call WXAndroidNative.get_cpu_time
+INFO  2023-04-19 11:13:20,619 basenative.py wrapper         27  call WXAndroidNative.get_cpu_time end
+INFO  2023-04-19 11:13:20,620 basenative.py wrapper         27  call WXAndroidNative.get_cpu_rate_by_file end
+INFO  2023-04-19 11:13:20,699 basenative.py wrapper         23  call WXAndroidNative.get_mem_used_new
+INFO  2023-04-19 11:13:20,942 basenative.py wrapper         27  call WXAndroidNative.get_mem_used_new end
+INFO  2023-04-19 11:13:20,942 androidnative.py write_perf_data 676 perf_cpu: 37.216338880484116, fps_data: 14, perf_mem: 125.1220703125
+INFO  2023-04-19 11:13:20,942 basenative.py wrapper         23  call WXAndroidNative.screen_shot
+INFO  2023-04-19 11:13:21,459 basenative.py wrapper         27  call WXAndroidNative.screen_shot end
+INFO  2023-04-19 11:13:22,418 basenative.py wrapper         23  call WXAndroidNative.get_cpu_rate_by_file
+INFO  2023-04-19 11:13:22,477 basenative.py wrapper         23  call WXAndroidNative.get_cpu_time
+INFO  2023-04-19 11:13:22,561 basenative.py wrapper         27  call WXAndroidNative.get_cpu_time end
+INFO  2023-04-19 11:13:22,562 basenative.py wrapper         27  call WXAndroidNative.get_cpu_rate_by_file end
+INFO  2023-04-19 11:13:22,649 basenative.py wrapper         23  call WXAndroidNative.get_mem_used_new
+INFO  2023-04-19 11:13:22,854 basenative.py wrapper         27  call WXAndroidNative.get_mem_used_new end
+INFO  2023-04-19 11:13:22,854 androidnative.py write_perf_data 676 perf_cpu: 36.65158371040724, fps_data: 44, perf_mem: 120.2998046875
+INFO  2023-04-19 11:13:22,855 basenative.py wrapper         23  call WXAndroidNative.screen_shot
+INFO  2023-04-19 11:13:23,195 basenative.py wrapper         27  call WXAndroidNative.screen_shot end
+INFO  2023-04-19 11:13:23,974 basenative.py wrapper         23  call WXAndroidNative.get_cpu_rate_by_file
+INFO  2023-04-19 11:13:24,045 basenative.py wrapper         23  call WXAndroidNative.get_cpu_time
+INFO  2023-04-19 11:13:24,140 basenative.py wrapper         27  call WXAndroidNative.get_cpu_time end
+INFO  2023-04-19 11:13:24,140 basenative.py wrapper         27  call WXAndroidNative.get_cpu_rate_by_file end
+INFO  2023-04-19 11:13:24,216 basenative.py wrapper         23  call WXAndroidNative.get_mem_used_new
+INFO  2023-04-19 11:13:24,596 basenative.py wrapper         27  call WXAndroidNative.get_mem_used_new end
+INFO  2023-04-19 11:13:24,596 androidnative.py write_perf_data 676 perf_cpu: 35.77817531305903, fps_data: 45, perf_mem: 119.6923828125
+INFO  2023-04-19 11:13:24,596 basenative.py wrapper         23  call WXAndroidNative.screen_shot
+INFO  2023-04-19 11:13:25,284 basenative.py wrapper         27  call WXAndroidNative.screen_shot end
+INFO  2023-04-19 11:13:25,284 basenative.py wrapper         23  call WXAndroidNative.get_cpu_rate_by_file
+INFO  2023-04-19 11:13:25,373 basenative.py wrapper         23  call WXAndroidNative.get_cpu_time
+INFO  2023-04-19 11:13:25,438 basenative.py wrapper         27  call WXAndroidNative.get_cpu_time end
+INFO  2023-04-19 11:13:25,438 basenative.py wrapper         27  call WXAndroidNative.get_cpu_rate_by_file end
+INFO  2023-04-19 11:13:25,529 basenative.py wrapper         23  call WXAndroidNative.get_mem_used_new
+INFO  2023-04-19 11:13:25,758 basenative.py wrapper         27  call WXAndroidNative.get_mem_used_new end
+INFO  2023-04-19 11:13:25,758 androidnative.py write_perf_data 676 perf_cpu: 35.81780538302277, fps_data: 48, perf_mem: 118.4716796875
+INFO  2023-04-19 11:13:25,759 basenative.py wrapper         23  call WXAndroidNative.screen_shot
+INFO  2023-04-19 11:13:26,084 minitest.py capture         576 capture 进入课程-success.png
+INFO  2023-04-19 11:13:26,084 basenative.py wrapper         23  call WXAndroidNative.screen_shot
+INFO  2023-04-19 11:13:26,370 basenative.py wrapper         27  call WXAndroidNative.screen_shot end
+INFO  2023-04-19 11:13:26,370 basenative.py wrapper         23  call WXAndroidNative.get_cpu_rate_by_file
+INFO  2023-04-19 11:13:26,420 basenative.py wrapper         23  call WXAndroidNative.get_cpu_time
+INFO  2023-04-19 11:13:26,483 basenative.py wrapper         27  call WXAndroidNative.get_cpu_time end
+INFO  2023-04-19 11:13:26,483 basenative.py wrapper         27  call WXAndroidNative.get_cpu_rate_by_file end
+INFO  2023-04-19 11:13:26,550 basenative.py wrapper         27  call WXAndroidNative.screen_shot end
+INFO  2023-04-19 11:13:26,559 basenative.py wrapper         23  call WXAndroidNative.get_mem_used_new
+INFO  2023-04-19 11:13:26,767 basenative.py wrapper         27  call WXAndroidNative.get_mem_used_new end
+INFO  2023-04-19 11:13:26,768 androidnative.py write_perf_data 676 perf_cpu: 38.851351351351354, fps_data: 47, perf_mem: 116.5361328125
+INFO  2023-04-19 11:13:26,768 basenative.py wrapper         23  call WXAndroidNative.screen_shot
+INFO  2023-04-19 11:13:27,061 basenative.py wrapper         27  call WXAndroidNative.screen_shot end
+INFO  2023-04-19 11:13:27,754 basenative.py wrapper         23  call WXAndroidNative.get_cpu_rate_by_file
+INFO  2023-04-19 11:13:27,807 basenative.py wrapper         23  call WXAndroidNative.get_cpu_time
+INFO  2023-04-19 11:13:27,864 basenative.py wrapper         27  call WXAndroidNative.get_cpu_time end
+INFO  2023-04-19 11:13:27,864 basenative.py wrapper         27  call WXAndroidNative.get_cpu_rate_by_file end
+INFO  2023-04-19 11:13:27,956 basenative.py wrapper         23  call WXAndroidNative.get_mem_used_new
+INFO  2023-04-19 11:13:28,089 minitest.py capture         576 capture 进入课程首页-success.png
+INFO  2023-04-19 11:13:28,089 basenative.py wrapper         23  call WXAndroidNative.screen_shot
+INFO  2023-04-19 11:13:28,137 basenative.py wrapper         27  call WXAndroidNative.get_mem_used_new end
+INFO  2023-04-19 11:13:28,137 androidnative.py write_perf_data 676 perf_cpu: 45.02923976608187, fps_data: 26, perf_mem: 116.6220703125
+INFO  2023-04-19 11:13:28,137 basenative.py wrapper         23  call WXAndroidNative.screen_shot
+INFO  2023-04-19 11:13:28,495 basenative.py wrapper         27  call WXAndroidNative.screen_shot end
+INFO  2023-04-19 11:13:28,779 basenative.py wrapper         27  call WXAndroidNative.screen_shot end
+ERROR 2023-04-19 11:13:29,051 connection.py _on_message     260 [dd784303-e176-4919-bacd-f20e9c880f05]: webview Page.getElementByXpath unimplemented
+WARNI 2023-04-19 11:13:29,053 connection.py _on_message     262 webview Page.getElementByXpath unimplemented, It may be caused by the low sdk version
+INFO  2023-04-19 11:13:29,239 basenative.py wrapper         23  call WXAndroidNative.get_cpu_rate_by_file
+INFO  2023-04-19 11:13:29,304 basenative.py wrapper         23  call WXAndroidNative.get_cpu_time
+INFO  2023-04-19 11:13:29,356 basenative.py wrapper         27  call WXAndroidNative.get_cpu_time end
+INFO  2023-04-19 11:13:29,356 basenative.py wrapper         27  call WXAndroidNative.get_cpu_rate_by_file end
+INFO  2023-04-19 11:13:29,439 basenative.py wrapper         23  call WXAndroidNative.get_mem_used_new
+INFO  2023-04-19 11:13:29,612 basenative.py wrapper         27  call WXAndroidNative.get_mem_used_new end
+INFO  2023-04-19 11:13:29,612 androidnative.py write_perf_data 676 perf_cpu: 37.58389261744966, fps_data: 23, perf_mem: 116.1474609375
+INFO  2023-04-19 11:13:29,613 basenative.py wrapper         23  call WXAndroidNative.screen_shot
+INFO  2023-04-19 11:13:29,962 basenative.py wrapper         27  call WXAndroidNative.screen_shot end
+INFO  2023-04-19 11:13:30,686 basenative.py wrapper         23  call WXAndroidNative.get_cpu_rate_by_file
+INFO  2023-04-19 11:13:30,742 basenative.py wrapper         23  call WXAndroidNative.get_cpu_time
+INFO  2023-04-19 11:13:30,795 basenative.py wrapper         27  call WXAndroidNative.get_cpu_time end
+INFO  2023-04-19 11:13:30,795 basenative.py wrapper         27  call WXAndroidNative.get_cpu_rate_by_file end
+INFO  2023-04-19 11:13:30,860 basenative.py wrapper         23  call WXAndroidNative.get_mem_used_new
+INFO  2023-04-19 11:13:31,069 basenative.py wrapper         27  call WXAndroidNative.get_mem_used_new end
+INFO  2023-04-19 11:13:31,069 androidnative.py write_perf_data 676 perf_cpu: 41.37931034482759, fps_data: 23, perf_mem: 115.9501953125
+INFO  2023-04-19 11:13:31,070 basenative.py wrapper         23  call WXAndroidNative.screen_shot
+INFO  2023-04-19 11:13:31,401 basenative.py wrapper         27  call WXAndroidNative.screen_shot end
+INFO  2023-04-19 11:13:31,408 basenative.py wrapper         23  call WXAndroidNative.stop_get_perf
+INFO  2023-04-19 11:13:32,117 basenative.py wrapper         27  call WXAndroidNative.write_perf_data end
+INFO  2023-04-19 11:13:32,118 basenative.py wrapper         27  call WXAndroidNative.stop_get_perf end
+INFO  2023-04-19 11:13:32,119 basenative.py wrapper         23  call BaseNative.get_start_up
+INFO  2023-04-19 11:13:32,120 basenative.py wrapper         27  call BaseNative.get_start_up end
+INFO  2023-04-19 11:13:32,122 minitest.py capture         576 capture teardown.png
+INFO  2023-04-19 11:13:32,122 basenative.py wrapper         23  call WXAndroidNative.screen_shot
+INFO  2023-04-19 11:13:32,519 basenative.py wrapper         27  call WXAndroidNative.screen_shot end
+ERROR 2023-04-19 11:13:32,521 assertbase.py _teardown_collect 273 <bound method CourseIndexTest.test_001_goToOtherPage of <case.CourseIndexTest.CourseIndexTest testMethod=test_001_goToOtherPage_模拟考_5>>
+Traceback (most recent call last):
+  File "d:\python\python38\lib\site-packages\minium\framework\libs\unittest\case.py", line 39, in testPartExecutor
+    yield
+  File "d:\python\python38\lib\site-packages\minium\framework\libs\unittest\case.py", line 125, in run
+    self._callTestMethod(testMethod)
+  File "d:\python\python38\lib\unittest\case.py", line 633, in _callTestMethod
+    method()
+  File "d:\python\python38\lib\site-packages\ddt.py", line 220, in wrapper
+    return func(self, *args, **kwargs)
+  File "G:\python_workspace\四大证自动化\case\CourseIndexTest.py", line 54, in test_001_goToOtherPage
+    self.getElement(element).tap()
+  File "G:\python_workspace\四大证自动化\case\base\BaseCase.py", line 73, in getElement
+    return self.page.get_element(self.elementXpath[key]["value"])
+  File "d:\python\python38\lib\site-packages\minium\miniprogram\base_driver\minium_log.py", line 131, in wrapper
+    result = func(*args, **kwargs)
+  File "d:\python\python38\lib\site-packages\minium\miniprogram\base_driver\page.py", line 240, in get_element
+    return self.get_element_by_xpath(
+  File "d:\python\python38\lib\site-packages\minium\miniprogram\base_driver\minium_log.py", line 131, in wrapper
+    result = func(*args, **kwargs)
+  File "d:\python\python38\lib\site-packages\minium\miniprogram\base_driver\page.py", line 435, in get_element_by_xpath
+    el = search_element()
+  File "d:\python\python38\lib\site-packages\minium\utils\utils.py", line 43, in wrapper
+    r = func(*args, **kwargs)
+  File "d:\python\python38\lib\site-packages\minium\miniprogram\base_driver\page.py", line 433, in search_element
+    return self._get_element_by_xpath(xpath)
+  File "d:\python\python38\lib\site-packages\minium\miniprogram\base_driver\page.py", line 607, in _get_element_by_xpath
+    ret = self._send("Page.getElementByXpath", {"selector": xpath})
+  File "d:\python\python38\lib\site-packages\minium\miniprogram\base_driver\page.py", line 458, in _send
+    self.connection.send(method, params)
+  File "d:\python\python38\lib\site-packages\minium\miniprogram\base_driver\connection.py", line 203, in send
+    return self._receive_response(cmd)
+  File "d:\python\python38\lib\site-packages\minium\miniprogram\base_driver\connection.py", line 222, in _receive_response
+    raise response
+minium.framework.exception.MiniLowVersionSdkError: webview Page.getElementByXpath unimplemented

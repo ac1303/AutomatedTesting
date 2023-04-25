@@ -1,0 +1,10 @@
+{
+    "pkg_list": [
+      {
+        "pkg": "case.*Test",
+        "case_list": [
+          "test_*"
+        ]
+      }
+    ]
+  }

@@ -1,0 +1,17 @@
+{
+  "project_path": "G:\\小程序\\mp-weixin",
+  "dev_tool_path": "D:\\Tencent\\微信web开发者工具\\cli.bat",
+  "debug_mode": "info",
+  "outputs": "./outputs",
+  "platform": "android",
+  "device_desire": {
+    "serial": "emulator-5554"
+  },
+  "enable_app_log": true,
+  "enable_network_panel": true,
+
+  "audits": false,
+
+  "close_ide": false,
+  "full_reset": false
+}

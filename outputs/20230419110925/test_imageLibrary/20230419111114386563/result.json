@@ -1,0 +1,137 @@
+{
+    "case_name": "test_imageLibrary",
+    "run_time": "20230419 11:11:14",
+    "test_type": "ClockInTest",
+    "case_doc": null,
+    "success": false,
+    "failures": "",
+    "errors": "Traceback (most recent call last):\n  File \"d:\\python\\python38\\lib\\site-packages\\minium\\miniprogram\\base_driver\\page.py\", line 628, in _get_elements_by_xpath\n    ret = self._send(\"Page.getElementsByXpath\", {\"selector\": xpath})\n  File \"d:\\python\\python38\\lib\\site-packages\\minium\\miniprogram\\base_driver\\page.py\", line 458, in _send\n    self.connection.send(method, params)\n  File \"d:\\python\\python38\\lib\\site-packages\\minium\\miniprogram\\base_driver\\connection.py\", line 203, in send\n    return self._receive_response(cmd)\n  File \"d:\\python\\python38\\lib\\site-packages\\minium\\miniprogram\\base_driver\\connection.py\", line 222, in _receive_response\n    raise response\nminium.framework.exception.MiniLowVersionSdkError: webview Page.getElementsByXpath unimplemented\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"d:\\python\\python38\\lib\\site-packages\\minium\\framework\\libs\\unittest\\case.py\", line 39, in testPartExecutor\n    yield\n  File \"d:\\python\\python38\\lib\\site-packages\\minium\\framework\\libs\\unittest\\case.py\", line 125, in run\n    self._callTestMethod(testMethod)\n  File \"d:\\python\\python38\\lib\\unittest\\case.py\", line 633, in _callTestMethod\n    method()\n  File \"G:\\python_workspace\\\u56db\u5927\u8bc1\u81ea\u52a8\u5316\\case\\ClockInTest.py\", line 39, in test_imageLibrary\n    el = self.getElement(\"\u56fe\u7247\u5e93\")[0]\n  File \"G:\\python_workspace\\\u56db\u5927\u8bc1\u81ea\u52a8\u5316\\case\\base\\BaseCase.py\", line 71, in getElement\n    return self.page.get_elements(self.elementXpath[key][\"value\"])\n  File \"d:\\python\\python38\\lib\\site-packages\\minium\\miniprogram\\base_driver\\minium_log.py\", line 131, in wrapper\n    result = func(*args, **kwargs)\n  File \"d:\\python\\python38\\lib\\site-packages\\minium\\miniprogram\\base_driver\\page.py\", line 345, in get_elements\n    return self.get_elements_by_xpath(\n  File \"d:\\python\\python38\\lib\\site-packages\\minium\\miniprogram\\base_driver\\minium_log.py\", line 131, in wrapper\n    result = func(*args, **kwargs)\n  File \"d:\\python\\python38\\lib\\site-packages\\minium\\miniprogram\\base_driver\\page.py\", line 411, in get_elements_by_xpath\n    return search_elements()\n  File \"d:\\python\\python38\\lib\\site-packages\\minium\\utils\\utils.py\", line 43, in wrapper\n    r = func(*args, **kwargs)\n  File \"d:\\python\\python38\\lib\\site-packages\\minium\\miniprogram\\base_driver\\page.py\", line 409, in search_elements\n    return self._get_elements_by_xpath(xpath, index=index)\n  File \"d:\\python\\python38\\lib\\site-packages\\minium\\miniprogram\\base_driver\\page.py\", line 636, in _get_elements_by_xpath\n    el = self._get_element_by_xpath(xpath)  # \u964d\u7ea7\u4f7f\u7528Page.getElementByXpath\n  File \"d:\\python\\python38\\lib\\site-packages\\minium\\miniprogram\\base_driver\\page.py\", line 607, in _get_element_by_xpath\n    ret = self._send(\"Page.getElementByXpath\", {\"selector\": xpath})\n  File \"d:\\python\\python38\\lib\\site-packages\\minium\\miniprogram\\base_driver\\page.py\", line 458, in _send\n    self.connection.send(method, params)\n  File \"d:\\python\\python38\\lib\\site-packages\\minium\\miniprogram\\base_driver\\connection.py\", line 203, in send\n    return self._receive_response(cmd)\n  File \"d:\\python\\python38\\lib\\site-packages\\minium\\miniprogram\\base_driver\\connection.py\", line 222, in _receive_response\n    raise response\nminium.framework.exception.MiniLowVersionSdkError: webview Page.getElementByXpath unimplemented\n",
+    "start_timestamp": 1681873874.3875399,
+    "is_failure": false,
+    "is_error": true,
+    "module": "G:.python_workspace.\u56db\u5927\u8bc1\u81ea\u52a8\u5316.case.ClockInTest",
+    "package": "case",
+    "failed_line_num": 39,
+    "device": {
+        "system_info": {
+            "screenWidth": 360,
+            "windowHeight": 640,
+            "bluetoothEnabled": true,
+            "language": "zh_CN",
+            "microphoneAuthorized": true,
+            "locationAuthorized": true,
+            "notificationAuthorized": true,
+            "model": "2203121C",
+            "statusBarHeight": 24,
+            "safeArea": {
+                "width": 360,
+                "right": 360,
+                "top": 0,
+                "left": 0,
+                "bottom": 640,
+                "height": 640
+            },
+            "brand": "Xiaomi",
+            "windowWidth": 360,
+            "locationEnabled": true,
+            "benchmarkLevel": -1,
+            "screenHeight": 640,
+            "abi": "armeabi-v7a",
+            "version": "8.0.2",
+            "cameraAuthorized": true,
+            "system": "Android 9",
+            "fontSizeSetting": 16,
+            "pixelRatio": 3,
+            "deviceOrientation": "portrait",
+            "wifiEnabled": true,
+            "screenTop": 0,
+            "platform": "android",
+            "SDKVersion": "2.16.1",
+            "enableDebug": false,
+            "devicePixelRatio": 3,
+            "host": {
+                "env": "WeChat",
+                "version": 671089204
+            }
+        }
+    },
+    "log_filename": "run.log",
+    "error_type": "MiniLowVersionSdkError",
+    "error_value": "webview Page.getElementByXpath unimplemented",
+    "error_stages": [
+        "testMethod"
+    ],
+    "screen_info": [
+        {
+            "name": "setup",
+            "url": "/pages/index",
+            "path": "images\\setup.png",
+            "ts": 1681873880,
+            "datetime": "2023-04-19 11:11:20"
+        },
+        {
+            "name": "\u8fdb\u5165\u8bfe\u7a0b-success",
+            "url": "/pages/Course/index",
+            "path": "images\\\u8fdb\u5165\u8bfe\u7a0b-success.png",
+            "ts": 1681873900,
+            "datetime": "2023-04-19 11:11:40"
+        },
+        {
+            "name": "\u8fdb\u5165\u6253\u5361\u9875\u9762\u6210\u529f-success",
+            "url": "/pages/Template/clockIn/clockIn",
+            "path": "images\\\u8fdb\u5165\u6253\u5361\u9875\u9762\u6210\u529f-success.png",
+            "ts": 1681873906,
+            "datetime": "2023-04-19 11:11:46"
+        },
+        {
+            "name": "teardown",
+            "url": "/pages/Template/clockIn/clockIn",
+            "path": "images\\teardown.png",
+            "ts": 1681873910,
+            "datetime": "2023-04-19 11:11:50"
+        }
+    ],
+    "check_list": [],
+    "assert_list": [
+        {
+            "name": "\u8fdb\u5165\u8bfe\u7a0b",
+            "ret": true,
+            "msg": null,
+            "img": "\u8fdb\u5165\u8bfe\u7a0b-success",
+            "wxml": ""
+        },
+        {
+            "name": "\u8fdb\u5165\u6253\u5361\u9875\u9762\u6210\u529f",
+            "ret": true,
+            "msg": null,
+            "img": "\u8fdb\u5165\u6253\u5361\u9875\u9762\u6210\u529f-success",
+            "wxml": ""
+        }
+    ],
+    "perf_data": "{\"startup\": 0, \"avg_cpu\": 0, \"max_cpu\": 0, \"cpu_data_list\": [], \"avg_mem\": 0, \"max_mem\": 0, \"mem_data_list\": [], \"avg_fps\": 0, \"min_fps_rt\": 0, \"fps_data_list\": [], \"fps_time_series_list\": [], \"cpu_time_series_list\": [], \"mem_time_series_list\": []}",
+    "weapp_log_path": "weapp.log",
+    "request_log_path": "request.log",
+    "stop_timestamp": 1681873910.8008595,
+    "appId": "",
+    "appName": "",
+    "source": {
+        "code": [
+            "    def test_imageLibrary(self):\n",
+            "        el = self.getElement(\"\u56fe\u7247\u5e93\")[0]\n",
+            "        img_url = el.attribute(\"src\")\n",
+            "        el.tap()\n",
+            "        self.app.wait_util(0)\n",
+            "        self.page.wait_for(1)\n",
+            "        self.assertTrue(self.app.wait_for_page(self.route.get_page(\"\u8bbe\u7f6e\u5206\u4eab\u56fe\")), \"\u8fdb\u5165\u8bbe\u7f6e\u5206\u4eab\u56fe\u6210\u529f\")\n",
+            "        self.getElement(\"\u8bbe\u7f6e\u4e3a\u6253\u5361\u56fe\u7247\").tap()\n",
+            "        self.app.wait_util(0)\n",
+            "        self.page.wait_for(1)\n",
+            "        self.assertTrue(self.app.wait_for_page(self.route.get_page(\"\u6253\u5361\")), \"\u8fdb\u5165\u6253\u5361\u9875\u9762\u6210\u529f\")\n",
+            "        new_img_url = self.getElement(\"\u4e0a\u4f20\u56fe\u7247\").attribute(\"src\")\n",
+            "        self.logger.info(\"new_img_url: %s\" % new_img_url)\n",
+            "        self.assertNotEqual(img_url, new_img_url, \"\u8bbe\u7f6e\u56fe\u7247\u6210\u529f\")\n"
+        ],
+        "start": 38
+    },
+    "filename": "result.json"
+}
